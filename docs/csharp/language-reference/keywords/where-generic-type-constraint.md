@@ -21,7 +21,7 @@ ms.locfileid: "92687318"
 
 La cláusula `where` en una definición genérica especifica restricciones en los tipos que se usan como argumentos para los parámetros de tipo en un tipo genérico, método, delegado o función local. Las restricciones pueden especificar interfaces o clases base, o bien requerir que un tipo genérico sea una referencia, un valor o un tipo no administrado. Declaran las funcionalidades que debe tener el argumento de tipo.
 
-Por ejemplo, se puede declarar una clase genérica, `MyGenericClass`, de modo que el parámetro de tipo `T` implemente la interfaz <xref:System.IComparable%601>:
+Por ejemplo, se puede declarar una clase genérica, `AGenericClass`, de modo que el parámetro de tipo `T` implemente la interfaz <xref:System.IComparable%601>:
 
 [!code-csharp[using an interface constraint](snippets/GenericWhereConstraints.cs#1)]
 
